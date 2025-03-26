@@ -32,8 +32,8 @@ public class Pago {
     private String messgase;
     public Pago() {}
 
-    public Pago( String idUser, List<Articulo> articulos, int total, String fechaCompra, String estado, String messgase) {
-
+    public Pago( String id, String idUser, List<Articulo> articulos, int total, String fechaCompra, String estado, String messgase) {
+        this.id = id;
         this.idUser = idUser;
         this.articulos = articulos;
         this.total = total;
@@ -42,7 +42,8 @@ public class Pago {
         this.messgase = messgase;
     }
 
-
+    public String getId(){ return id; }
+    public void setId(String id){ this.id = id;}
     public String getIdUser() {
         return idUser;
     }

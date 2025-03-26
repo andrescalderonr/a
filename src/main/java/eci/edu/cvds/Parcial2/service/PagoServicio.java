@@ -38,6 +38,6 @@ public class PagoServicio {
     }
 
     public List<Pago> obtenerPagosPorUsuario (String idUser){
-        return pagoRepository.findByUser(idUser);
+        return pagoRepository.findByIdUser(idUser);
     }
 }

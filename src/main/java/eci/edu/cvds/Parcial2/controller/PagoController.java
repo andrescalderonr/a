@@ -17,7 +17,7 @@ public class PagoController {
     public Pago resgistrar (@RequestBody PagoDTO pagosDTO){
         return pagoServicio.registrarPago(pagosDTO);
     }
-    @GetMapping
+    @GetMapping("/{idUser}")
     public List<Pago> obtenerPagos (@PathVariable String idUser){
         return pagoServicio.obtenerPagosPorUsuario(idUser);
     }

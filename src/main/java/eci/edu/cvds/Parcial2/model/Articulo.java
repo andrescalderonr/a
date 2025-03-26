@@ -18,7 +18,6 @@ public class Articulo {
         this.precioTotal = precioTotal;
     }
 
-    // Getter y Setter para nombre
     public String getNombre() {
         return nombre;
     }
@@ -27,7 +26,6 @@ public class Articulo {
         this.nombre = nombre;
     }
 
-    // Getter y Setter para cantidad
     public int getCantidad() {
         return cantidad;
     }
@@ -36,7 +34,6 @@ public class Articulo {
         this.cantidad = cantidad;
     }
 
-    // Getter y Setter para precioTotal
     public int getPrecioTotal() {
         return precioTotal;
     }
