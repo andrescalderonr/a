@@ -9,6 +9,7 @@ public class PagoDTO {
     private String idUser;
     private List<Articulo> articulos;
     private String fechaCompra;
+
     public PagoDTO() {}
 
     public PagoDTO(String idUser, List<Articulo> articulos, String fechaCompra) {

@@ -31,8 +31,8 @@ public class PagoServicio {
             pagos.setArticulos(pagosDTO.getArticulos());
             pagos.setTotal(totalPago);
             pagos.setFechaCompra(pagosDTO.getFechaCompra());
-            pagos.setEstado("Aprovado");
-            pagos.setMessgase("Se aprovo la compra");
+            pagos.setEstado("Aprobado");
+            pagos.setMessgase("Se aprobo la compra");
             return pagoRepository.save(pagos);
         }
     }
